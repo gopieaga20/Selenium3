@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "TCO_1 Ro Validate the Faacebook Login Wtih Valid UserName and Valid Pasword",
+        "description": "",
+        "id": "validating-the-facebook-application;tco-1-ro-validate-the-faacebook-login-wtih-valid-username-and-valid-pasword",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10487394400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Launch the Facebook Web Application",
+            "match": {
+              "location": "Stepdef.user_Launch_the_Facebook_Web_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2061603800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Enters the Valid UserName and Valid Password",
+            "match": {
+              "location": "Stepdef.user_Enters_the_Valid_UserName_and_Valid_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133406400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks thee Login button",
+            "match": {
+              "location": "Stepdef.user_clicks_thee_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 207300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Enters into the  HomePage is Displayed",
+            "match": {
+              "location": "Stepdef.user_Enters_into_the_HomePage_is_Displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating the facebook Application",
+    "description": "",
+    "id": "validating-the-facebook-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/Jega/eclipse-workspace/FbTask1/src/test/resources/FB.feature",
+    "tags": []
+  }
+]
