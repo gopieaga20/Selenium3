@@ -6,7 +6,3 @@ Feature: Validating the facebook Application
   And User clicks thee Login button
   Then User Enters into the  HomePage is Displayed
   
-	
-  Scenario: Search the product
-  
-  Scenario: Filter the product
